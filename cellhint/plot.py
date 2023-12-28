@@ -3,6 +3,7 @@ import pandas as pd
 from typing import Union, Optional
 from .symbols import NOVEL, REMAIN
 import sys
+from . import logger
 try:
     import plotly.graph_objects as go
 except ImportError:
